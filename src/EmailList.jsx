@@ -11,6 +11,11 @@ export default function EmailList() {
 			If you would like to become a test user, feel free to leave us your email.
           </p>
           <NetlifyForm name="email-list" action='/thanks' honeypotName='bot-field' className="mx-auto mt-10 flex max-w-md gap-x-4">
+	  {({handleChange, success, error}) => (
+		  <>
+		  <Honeypot />
+		  {success && <p> Thanks for contacting us!</p>}
+		  {success && <p>Sorry, we could not reach our servers. Please try again later!</p>}
             <label htmlFor="email-address" className="sr-only">
               Email address
             </label>
@@ -29,6 +34,11 @@ export default function EmailList() {
             >
               Notify me
             </button>
+
+		  </>
+	  )
+
+	  }
           </NetlifyForm>
           <svg
             viewBox="0 0 1024 1024"

@@ -7,6 +7,7 @@ import {
   LockClosedIcon,
   ServerIcon,
 } from '@heroicons/react/20/solid'
+import Logo from './assets/Teachermate_logo.png'
 import { BoltIcon, CalendarDaysIcon, UsersIcon } from '@heroicons/react/24/outline'
 import EmailList from './EmailList.jsx'
 
@@ -207,7 +208,7 @@ export default function Example() {
             <div className="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8">
               <img
                 className="h-60"
-                src="src/assets/Teachermate_logo.png"
+                src={Logo}
                 alt="Your Company"
               />
               <h1 className="mt-10 text-4xl font-bold tracking-tight text-white sm:text-6xl">

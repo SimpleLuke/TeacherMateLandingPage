@@ -9,7 +9,7 @@ export default function EmailList() {
           <p className="mx-auto mt-2 max-w-xl text-center text-lg leading-8 text-gray-300">
 			If you would like to become a test user, feel free to leave us your email.
           </p>
-          <form name="email-list" method="POST" data-netlify="true" className="mx-auto mt-10 flex max-w-md gap-x-4">
+          <form name="email-list" method="post" className="mx-auto mt-10 flex max-w-md gap-x-4">
             <label htmlFor="email-address" className="sr-only">
               Email address
             </label>

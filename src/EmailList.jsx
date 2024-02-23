@@ -1,3 +1,4 @@
+import { NetlifyForm, Honeypot } from 'react-netlify-forms'
 
 export default function EmailList() {
   return (
@@ -9,7 +10,7 @@ export default function EmailList() {
           <p className="mx-auto mt-2 max-w-xl text-center text-lg leading-8 text-gray-300">
 			If you would like to become a test user, feel free to leave us your email.
           </p>
-          <form name="email-list" method="post" className="mx-auto mt-10 flex max-w-md gap-x-4">
+          <NetlifyForm name="email-list" action='/thanks' honeypotName='bot-field' className="mx-auto mt-10 flex max-w-md gap-x-4">
             <label htmlFor="email-address" className="sr-only">
               Email address
             </label>
@@ -28,7 +29,7 @@ export default function EmailList() {
             >
               Notify me
             </button>
-          </form>
+          </NetlifyForm>
           <svg
             viewBox="0 0 1024 1024"
             className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2"

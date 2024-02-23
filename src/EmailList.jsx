@@ -1,6 +1,21 @@
-import { NetlifyForm, Honeypot } from 'react-netlify-forms'
+import {useState} from 'react';
 
 export default function EmailList() {
+	const [email, setEmail] = useState("");
+	const handleSubmit = (event) => {
+  event.preventDefault();
+
+  const myForm = event.target;
+  const formData = new FormData(myForm);
+
+  fetch("/", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams(formData).toString(),
+  })
+    .then(() => navigate("/thank-you/"))
+    .catch((error) => alert(error));
+};
   return (
       <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:py-32">
@@ -10,12 +25,8 @@ export default function EmailList() {
           <p className="mx-auto mt-2 max-w-xl text-center text-lg leading-8 text-gray-300">
 			If you would like to become a test user, feel free to leave us your email.
           </p>
-          <NetlifyForm name="email-list" action='/thanks' honeypotName='bot-field' className="mx-auto mt-10 flex max-w-md gap-x-4">
-	  {({handleChange, success, error}) => (
-		  <>
-		  <Honeypot />
-		  {success && <p> Thanks for contacting us!</p>}
-		  {success && <p>Sorry, we could not reach our servers. Please try again later!</p>}
+          <form name="email-list" data-netlify="true" method="post" className="mx-auto mt-10 flex max-w-md gap-x-4" onSubmit={handleSubmit}>
+	  <input type="hidden" name="email-listing" value="email-listing"
             <label htmlFor="email-address" className="sr-only">
               Email address
             </label>
@@ -27,6 +38,8 @@ export default function EmailList() {
               required
               className="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6"
               placeholder="Enter your email"
+				value={email}
+				onChange={(e)=>setEmail(e.target.value)}
             />
             <button
               type="submit"
@@ -34,12 +47,7 @@ export default function EmailList() {
             >
               Notify me
             </button>
-
-		  </>
-	  )
-
-	  }
-          </NetlifyForm>
+          </form>
           <svg
             viewBox="0 0 1024 1024"
             className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2"

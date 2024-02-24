@@ -10,6 +10,7 @@ import {
 import Logo from './assets/Teachermate_logo.png'
 import { BoltIcon, CalendarDaysIcon, UsersIcon } from '@heroicons/react/24/outline'
 import EmailList from './EmailList.jsx'
+import DemoComponent from "./Demo.jsx";
 
 const primaryFeatures = [
   {
@@ -232,12 +233,10 @@ export default function Example() {
           </div>
           <div className="w-full flex flex-col mx-auto text-center">
 	  <div className="w-full h-full justify-center items-center mx-auto">
-            <h2 className="text-base text-center font-semibold leading-7 text-indigo-400">Demo</h2>
+            <h2 className="text-base text-center font-semibold leading-7 text-indigo-400">Try it yourself and explore the power of AI</h2>
 	  </div>
-	  <div className="w-full flex">
-	  <iframe className="w-full aspect-auto" src="https://app.relevanceai.com/form/f1db6c/75b3429c-ab4a-4a9d-a94a-9f3b55c651ae" width="500px" height="750px" frameborder="0"></iframe>
-<iframe className="w-full aspect-auto" src="https://app.relevanceai.com/form/f1db6c/eb4c9047-dda5-473d-9f44-944af58bbeb4" width="500px" height="750px" frameborder="0"></iframe>
-
+	  <div className="w-full flex justify-center">
+            <DemoComponent></DemoComponent>
 	  </div>
 	  </div>
         </div>

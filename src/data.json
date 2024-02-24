@@ -1,0 +1,54 @@
+{
+  "reports": [
+    {
+      "name": "Dexter Simms",
+      "averageGrade": "B",
+      "msg": "Dexter Simms demonstrates admirable enthusiasm and participation in most subjects, reflected in an above-average grade of B. Particularly strong comprehension and effort were exhibited in scientific notation, algebra, geometric transformation, linear equations, and cube roots. However, analyzing data, angles, Pythagoras theorem, and rational numbers proved more challenging. While Dexter shows promise, dedication, and willingness to learn, focusing on more thorough understanding and consistent practice in problem areas will lead to better mastery of concepts. With some refining of study habits and determined application, Dexter can achieve even greater success across all topics. I'm confident this bright student has the potential for continued growth. Keep up the good work, Dexter!"
+    },
+    {
+      "name": "Samantha Birkett",
+      "averageGrade": "C",
+      "msg": "Samantha Birkett demonstrates strong effort and an enthusiastic attitude towards learning, even in challenging topics. With a balanced average grade of C, Samantha shows particular interest and promise in geometry and data analysis. However, areas like scientific notation, algebra, linear equations, and especially equations require additional focus. While Samantha made commendable improvements in weeks 2 through 7, earning Bs for her increased attention, consistency, and comprehension, the unexpected D in week 8 indicates foundational concepts need reinforcement. As the semester closes, I am pleased to see her rebound with a solid B in rational numbers. With some topics still requiring revision, targeted support in Samantha's weaker areas will empower her continued success. Maintaining positivity and determination as she has all term, I'm confident she can master any concept through diligent practice. Keep aiming high, Samantha!"
+    },
+    {
+      "name": "Hoagy Cunningham",
+      "averageGrade": "C",
+      "msg": "Hoagy Cunningham demonstrates commendable effort and willingness to help peers, yet struggles with consistent focus on comprehension of key concepts. With an average grade of C, improvement is needed in analyzing data, cube roots, equations, and rational numbers - areas where foundational understanding appears lacking. While early geometric transformation evinced promise, recent assessments indicate a downward trajectory. However, glimmers of progress are visible in some homework quality and topic-specific gains. With tailored support, structured study habits, and renewed motivation, Hoagy can achieve improved consistency. Staying engaged, putting in effort, and not losing hope are all integral to realize Hoagy's potential. Refocusing on core building blocks and practicing fundamentals will lead the way towards mastery."
+    },
+    {
+      "name": "Anson Cheung",
+      "averageGrade": "C",
+      "msg": "Anson Cheung demonstrates promising talent, yet inconsistent effort and focus have hindered performance. With an average grade of C, Anson excelled in algebra and equations but struggled in areas like linear equations, data analysis, Pythagoras theorem and rational numbers - often due to incomplete assignments and chatting in class. While glimpses of diligence and good questions indicate Anson's potential, establishing structured study habits and sustaining concentration during lessons are imperative for success. With improved discipline and dedication, Anson can better comprehend course material. Refocusing on assignments' completion and minimizing disruptions are key first steps towards achieving stronger grades across all topics moving forward. The capability is present, but realizing it depends on Anson's self-direction and maturity."
+    },
+    {
+      "name": "Achyut Bihani",
+      "averageGrade": "C",
+      "msg": "Achyut Bihani demonstrates steady and commendable effort in most subject areas, earning an average grade of C this term. A particular highlight is Achyut's strong comprehension in equations and cube roots. However, analyzing data represents an area for growth. While Achyut shows noticeable progress across topics and contributes well when confident, applying consistent diligence and seeking additional support where needed will lead to greater mastery of challenging concepts. With the admirable dedication already shown, I believe Achyut can accomplish much by pushing forward courageously. Keep up the patience and hard work - you have promising potential!"
+    },
+    {
+      "name": "Rosita Bannert",
+      "averageGrade": "B",
+      "msg": "Rosita Bannert demonstrates commendable effort and improvement over the term, though continued dedication in key areas is needed to reach her potential. While showing initial shyness, Rosita made progress in engaging with scientific concepts and, with encouragement, achieved competence in geometric transformations, linear equations, and cube roots. However, staying focused on homework completion and seeking help when needed are imperative - as evidenced in the algebra, data analysis, equation, and rational numbers modules. With good preparation and diligent practice, especially in mathematical foundations, Rosita can gain confidence and skills. Her evident determination and willingness to learn are promising. Stay positive Rosita - with consistency and self-belief, you can succeed!"
+    },
+    {
+      "name": "Ilana Simons",
+      "averageGrade": "C",
+      "msg": "Ilana Simons displays commendable dedication and willingness to learn. With an average grade of C, Ilana shows particular promise in cube roots, actively participating in discussions and applying concepts. However, there are areas like angles where facing challenges with comprehension has impacted Ilana's progress. By seeking clarification where needed and maintaining consistent effort, steady improvement can be achieved across subjects. Ilana's evident self-motivation to put in effort and engagement with the material has resulted in promising signs of progress. With support and continued perseverance, Ilana can attain mastery. Keep up the persistence, Ilana!"
+    },
+    {
+      "name": "Matthew Thompson",
+      "averageGrade": "C",
+      "msg": "Matthew Thompson demonstrates a commendable willingness to participate in class discussions and assist classmates, contributing positively to the learning environment. With an average grade of C, there are signs of gradual improvement, particularly in assignment approach. However, finding balance between helping peers and focusing on individual work is key for Matthew's growth. Sustained effort and concentration on core concepts like rational numbers, where extra reinforcement is needed, will lead to better academic results. While supportive of others, targeting the middle ground between this collaboration and independent mastery of material, will help Matthew realize their potential. With determination and focus, continued progress is within reach."
+    },
+    {
+      "name": "Jo Yeomans",
+      "averageGrade": "C",
+      "msg": "Here is the report for Jo Yeomans: Jo, a dedicated student, displays steady comprehension in most subjects this term. With an average grade of C, Jo has room to further cultivate academic skills. During the early weeks covering scientific notation, algebra and geometric transformation, Jo lacked some foundational understanding, as evidenced by questions showing insufficient preparation. As the term progressed, performance improved in topics like data analysis, equations, and Pythagoras theorem when well rested. However, consistent tiredness and lack of sleep impacted focus and retention. Applying more diligent study habits and self-care is advised to support Jo's learning. With some additional effort invested, Jo can master challenging materials. The capability is surely present, but a proactive approach and commitment will help unlock Jo's promising potential. Stay positive!"
+    },
+    {
+      "name": "Costas Andriopoulos",
+      "averageGrade": "C",
+      "msg": "Costas Andriopoulos demonstrates admirable leadership qualities and commendable academic progress in certain areas, securing a C average grade. Their contributions to class discussions and small improvements in understanding complex concepts like geometric transformations and cube roots are promising. However, consistency seems to be an issue - homework completion and focus on foundational concepts have been lacking in key subjects like linear equations, data analysis, Pythagoras theorem and rational numbers. Applying themselves when faced with challenges, avoiding distractions, and maintaining diligence will help Costas better comprehend the material. With structured study habits and steadfast effort, they can achieve mastery. Costas has shown glimpses of their potential; staying the course will lead to greater success. Keep persevering!"
+    }
+  ]
+}

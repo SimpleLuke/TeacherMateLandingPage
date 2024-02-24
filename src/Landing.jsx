@@ -13,9 +13,9 @@ import EmailList from './EmailList.jsx'
 
 const primaryFeatures = [
   {
-    name: 'Dictation input',
+    name: 'Easy to use',
     description:
-      'Voice dictation input replaces manual input data into a spreadsheet',
+      'Techer mate is intuitive to use like talking to your personal assistant',
     href: '#',
     icon: BoltIcon,
   },
@@ -230,9 +230,15 @@ export default function Example() {
               </div>
             </div>
           </div>
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-base font-semibold leading-7 text-indigo-400">Demo</h2>
-	  <iframe class="w-full aspect-auto" src="https://app.relevanceai.com/form/f1db6c/75b3429c-ab4a-4a9d-a94a-9f3b55c651ae" width="500px" height="750px" frameborder="0"></iframe>
+          <div className="w-full flex flex-col mx-auto text-center">
+	  <div className="w-full h-full justify-center items-center mx-auto">
+            <h2 className="text-base text-center font-semibold leading-7 text-indigo-400">Demo</h2>
+	  </div>
+	  <div className="w-full flex">
+	  <iframe className="w-full aspect-auto" src="https://app.relevanceai.com/form/f1db6c/75b3429c-ab4a-4a9d-a94a-9f3b55c651ae" width="500px" height="750px" frameborder="0"></iframe>
+<iframe className="w-full aspect-auto" src="https://app.relevanceai.com/form/f1db6c/eb4c9047-dda5-473d-9f44-944af58bbeb4" width="500px" height="750px" frameborder="0"></iframe>
+
+	  </div>
 	  </div>
         </div>
 

@@ -8,6 +8,7 @@ import {
   ServerIcon,
 } from '@heroicons/react/20/solid'
 import Logo from './assets/Teachermate_logo.png'
+import Demo_screenshot from './assets/demo_screenshot.png'
 import { BoltIcon, CalendarDaysIcon, UsersIcon } from '@heroicons/react/24/outline'
 import EmailList from './EmailList.jsx'
 import DemoComponent from "./Demo.jsx";
@@ -213,7 +214,7 @@ export default function Example() {
                 alt="Your Company"
               />
               <h1 className="mt-10 text-4xl font-bold tracking-tight text-white sm:text-6xl">
-				Teachers should be teaching not filing not forms!
+				Teachers should be teaching not filling out forms!
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-300">
 				TeacherMate takes care of the admin workload for you so that you can focus on what you do best! Teaching to the best quality!
@@ -222,7 +223,7 @@ export default function Example() {
             <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
               <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
 	   <img
-                  src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+                  src={Demo_screenshot}
                   alt="App screenshot"
                   width={2432}
                   height={1442}

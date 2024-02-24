@@ -13,23 +13,23 @@ import EmailList from './EmailList.jsx'
 
 const primaryFeatures = [
   {
-    name: 'Easy to use',
+    name: 'Dictation input',
     description:
-      'Techer mate is intuitive to use like talking to your personal assistant',
+      'Voice dictation takes you away from staring at your laptop manually inputting students test and weekly progress data.',
     href: '#',
     icon: BoltIcon,
   },
   {
-    name: 'Auto marking',
+    name: 'Automarking',
     description:
-      'Courseworks are automatically marked through powerful AI',
+      'Course work is marked through our AI engine and the results for each student are stored with your students personal profile',
     href: '#',
     icon: UsersIcon,
   },
   {
     name: 'Customised student reports',
     description:
-      'Student reports are generated with customised tone with no more copy and paste',
+      'Writing 270 student reports once or twice a term is always tricky, TeacherMate works with you as your teaching assistant over the course of the term and calculates the students grade and generates a personal comment with your voice and the personal touch!',
     href: '#',
     icon: CalendarDaysIcon,
   },
@@ -212,10 +212,10 @@ export default function Example() {
                 alt="Your Company"
               />
               <h1 className="mt-10 text-4xl font-bold tracking-tight text-white sm:text-6xl">
-				Free yourself from administration work
+				Teachers should be teaching not filing not forms!
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-				Teacher Mate helps you with repetitive administration work, so that you can focus on your passion - teaching.
+				TeacherMate takes care of the admin workload for you so that you can focus on what you do best! Teaching to the best quality!
               </p>
             </div>
             <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
@@ -275,12 +275,14 @@ export default function Example() {
         {/* Feature section */}
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-56 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-base font-semibold leading-7 text-indigo-400">Make faster</h2>
+            <h2 className="text-base font-semibold leading-7 text-indigo-400">Your voice in your work</h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              Everything you need to mark student coursework
+Everything you need to spend less time at your laptop and more time enjoying life outside work!
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-				Teacher Mate helps you to mark throught student courseworks and generate report with easy input.
+	  	  TeacherMate can mark your students work, store the results for each week and help you write your reports by tracking their progress across the term.
+
+	  Through learning, our AI recreates your personal writing style and voice so that all feedback remains personal!
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">

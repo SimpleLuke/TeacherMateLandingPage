@@ -3,21 +3,6 @@ import {useState} from 'react';
 export default function EmailList() {
 	const [email, setEmail] = useState("");
 
-	const handleSubmit = (event) => {
-  event.preventDefault();
-
-  const myForm = event.target;
-  const formData = new FormData(myForm);
-
-  fetch("/", {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams(formData).toString(),
-  })
-    .then(() => navigate("/thank-you/"))
-    .catch((error) => alert(error));
-};
-
   return (
       <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:py-32">
@@ -27,8 +12,8 @@ export default function EmailList() {
           <p className="mx-auto mt-2 max-w-xl text-center text-lg leading-8 text-gray-300">
 			If you would like to become a test user, feel free to leave us your email.
           </p>
-          <form name="email-list" data-netlify="true" method="post" className="mx-auto mt-10 flex max-w-md gap-x-4" onSubmit={handleSubmit}>
-	  <input type="hidden" name="email-listing" value="email-listing" />
+          <form name="email-list" method="POST" className="mx-auto mt-10 flex max-w-md gap-x-4">
+	  <input type="hidden" name="form-name" value="email-list" />
             <label htmlFor="email-address" className="sr-only">
               Email address
             </label>
